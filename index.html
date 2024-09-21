@@ -1,0 +1,418 @@
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arek Property Management | Your Home Team</title>
+        
+        <!-- Personal Properties -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, user-scalable=no, shrink-to-fit=no" />
+        <meta name="description" content="Experience peace of mind with Arek's expert property management services. We handle everything from tenant screening to maintenance, maximizing your rental income and minimizing your stress. Your home is in good hands with Arek.">
+
+
+
+		<!-- Font Awesome Link -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+		<!-- Material Icons -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+
+		<!-- CSS For this Page -->
+		<link rel="icon" href="favicon.png">
+		<link rel="stylesheet" href="library/main0.1.2.css">
+
+
+		<!-- jQuery 3.5.1 -->
+		<script src="library/jquery.min.js"></script>
+        
+        
+        
+        
+        <!-- Owl Carousel Slider -->
+        <link rel="stylesheet" href="library/owlcarousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="library/owlcarousel/owl.theme.default.min.css">
+        <script src="library/owlcarousel/owl.carousel.min.js"></script>
+
+        
+
+    </head>
+
+    <body>
+
+        <section class="upper_header">
+            <div class="upper_menu_logo_keeper">
+                <img class="upper_menu_logo" src="logo.png" alt="AREK PROPERTY MANAGEMENT | Logo">
+                <img class="upper_menu_logo" src="assets/homepage/brokerage_logo.png" alt="AREK PROPERTY MANAGEMENT | Logo">
+                
+            </div>
+            <div class="upper_menu_nav">
+                <a class="upper_menu_nav_link" target="_blank" href="https://signin.managebuilding.com/Resident/portal/global-login">Renant Login</a>
+                <p class="upper_menu_nav_border"> | </p>
+                <a class="upper_menu_nav_link" target="_blank" href="https://signin.managebuilding.com/Resident/portal/global-login">Owner Login</a>
+                <p class="upper_menu_nav_border"> | </p>
+                <a onclick="showMaintenanceBtn()" class="upper_menu_nav_link">Maintenance Request</a>
+            </div>
+        </section>
+        <header class="header">
+            <a  href="index" class="logo_keepers">
+                <img class="logo_main" src="logo.png" alt="InterFineArt | Explore Fine Art, Galleries, and Creativity Online">
+                <img class="logo_extension" src="logo_extension.png" alt="InterFineArt | Explore Fine Art, Galleries, and Creativity Online">
+            </a>
+            <div class="menu_keeper">
+                <a class="menu_item" href="index">Home</a>
+                <a class="menu_item" href="about">About</a>
+                <a class="menu_item" href="services">Services</a>
+                <a class="menu_item" href="blog">Blog</a>
+                <a class="menu_item" href="contact">Contact</a>
+                <!-- <a class="menu_item" >Podcasts</a>
+                <a class="menu_item" >Marketplace</a>
+                <a class="menu_item" >Blog</a>
+                <a class="menu_item" >Events</a>
+                <a class="menu_item" >Art Curators</a>
+                <a class="menu_item" >Foundation</a>
+                <a class="menu_item" >Socials</a>
+                <a class="menu_item" >Links</a>
+                <a class="menu_item" >Contacts</a> -->
+                <a onclick="toogle_mobile_menu()" class="menu_mobile_button"><i class="fa fa-bars"></i></a>
+            </div>
+        </header>
+
+        <div id="mobile_menu" class="header_mobile_menu">
+            <div class="header_mobile_menu_top">
+                <div class="header_mobile_heading">
+                    <div class="logo_keepers">
+                        <img class="logo_main" src="logo.png" alt="InterFineArt | Explore Fine Art, Galleries, and Creativity Online">
+                        <img class="logo_extension" src="logo_extension.png" alt="InterFineArt | Explore Fine Art, Galleries, and Creativity Online">
+                    </div>
+                    <a onclick="toogle_mobile_menu()" class="menu_mobile_button"><i class="fa fa-remove"></i></a>
+                </div>
+
+                <div class="header_mobile_menus">
+                    <a class="menu_item_desktop" href="home">Home</a>
+                    <a class="menu_item_desktop" href="about">About</a>
+                    <a class="menu_item_desktop" href="services">Services</a>
+                    <a class="menu_item_desktop" href="blog">Blog</a>
+                    <a class="menu_item_desktop" href="contact">Contact</a>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            const mobile_menu = document.getElementById("mobile_menu");
+
+            function toogle_mobile_menu(){
+                if(mobile_menu.className == "header_mobile_menu"){
+                    mobile_menu.className = "header_mobile_menu header_mobile_menu_show";
+                }else mobile_menu.className = "header_mobile_menu";
+            }
+        </script>
+
+
+
+
+        <div class="home_page_slider_container">
+            <div class="owl-carousel owl-theme home_page_slider_inside">
+
+                <div class="home_page_slider_item" style="background-image: url('assets/homepage/a5f08ab2f8a3414aa4daa927910f1ea5.webp');">
+                    <h1 class="home_page_slider_header">Who We Are?</h1>
+                    <p class="home_page_slider_desc">We are a property management company based out of Toronto, Ontario. We specialize in Student Rentals, High Rise Condos, Duplexes,Triplexes and Single Dwelling Homes. We service Central Ontario.</p>
+
+
+
+                    <div class="home_slider_button_keeper">
+                        <a class="common_btn_home"><span class="material-icons">more_vert</span> INQUIRE NOW</a>
+                        <a class="common_btn_home"><span class="material-icons">more_vert</span> GET STARTED</a>
+                    </div>
+                </div>
+                <div class="home_page_slider_item" style="background-image: url('assets/homepage/c38cd71759f744e1a7ec2d10871410da.webp');">
+                    <h1 class="home_page_slider_header">What We Do?</h1>
+                    <p class="home_page_slider_desc">DPMG offers leasing and full property management services. We provide rental property supervision, management, tenant placement, rent collection, tenant relations, evictions, bill payments, property maintenance and inspections.</p>
+
+
+                    <div class="home_slider_button_keeper">
+                        <a class="common_btn_home"><span class="material-icons">more_vert</span> INQUIRE NOW</a>
+                        <a class="common_btn_home"><span class="material-icons">more_vert</span> GET STARTED</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="experience_care_section">
+            <h2 class="experience_main_heading">Experience Care with Arek</h2>
+
+
+            <div class="experience_item">
+                <div class="experience_ite_inside">
+
+                    <div class="experience_item_left">
+                        <h2 class="experience_item_heading">No More Stress</h2>
+                        <p class="experience_item_brief">Owning a residential rental property can be a lucriative investment, but it also carries with it its share of headaches and worries. Finding a skilled Calgary Residential Property Manager can save you a lot
+                            of time and money.</p>
+                        <a class="experience_item_link">Learn about our Services</a>
+                    </div>
+                    <div class="experience_item_right">
+                        <img class="experience_item_img" src="assets/homepage/no-more-stress.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="experience_item">
+                <div class="experience_ite_inside experience_item_flex_reverse">
+
+                    <div class="experience_item_left">
+                        <h2 class="experience_item_heading">A Dedicated Team</h2>
+                        <p class="experience_item_brief">With our full service Briere Property Management, you get much more than just one over-worked property manager. You get a full team of skilled professionals with the expertise to provide you with the highest level of service and the maximum return on your investment.</p>
+                        <a class="experience_item_link">Meet our Team</a>
+                    </div>
+                    <div class="experience_item_right">
+                        <img class="experience_item_img" src="assets/homepage/no-more-stress.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="experience_item experience_item_grey">
+                <div class="experience_ite_inside">
+
+                    <div class="experience_item_left">
+                        <h2 class="experience_item_heading">No Up-Front Fees or Expenses</h2>
+                        <p class="experience_item_brief">We are reinventing the Property Management business with no up-front fees or up-front expenses. We have one simple monthly management fee, a percentage of the monthly rent. You are only charged after a tenant is found and paying rent.</p>
+                        <a class="experience_item_link">Learn more about pricing</a>
+                    </div>
+                    <div class="experience_item_right">
+                        <img class="experience_item_img" src="assets/homepage/no-upfront-fees-side.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+
+            
+
+        </div>
+
+        <script>
+            $(document).ready(function(){
+                $(".home_page_slider_inside").owlCarousel({
+                    loop:true,
+                    autoplay:true,
+                    autoplayTimeout:2500,
+                    autoplayHoverPause:true,
+                    nav:true,
+                    navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+                    navClass: ['owl_prev', 'owl_next'],
+                    responsive:{
+                        0:{
+                            items:1,
+                        },
+                    }
+                });
+            });
+        </script>
+
+
+
+        <section class="customers_saying">
+            <h2 class="cusomter_saying_heading">What Our Customers are Saying</h2>
+
+            <div class="customer_saying_contianer">
+                <div class="customer_saying_inside">
+
+                    <div class="cas_saying_left">
+                        <button class="cas_saying_btn" onclick="change_testimonials('prev')"><span class="material-icons">arrow_back_ios</span></button>
+                    </div>
+                    <div class="cas_saying_center">
+                        <p id="customer_saying_commer" class="cas_saying_comment">He was my rental agent when I first moved to Calgary 4 years ago, now I purchased a condo with him. He is very profrssional and responsive all the time. I had a very tight schedule with purchase (less than 3 weeks) and he made it happen. Work with David, you won't regret it!</p>
+                        <h1 class="cas_saying_commenter">- <span id="customer_saying_commenter">Sang Jun Lee</span></h1>
+                    </div>
+                    <div class="cas_saying_right">
+                        <button class="cas_saying_btn" onclick="change_testimonials('next')"><span class="material-icons">arrow_forward_ios</span></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="customer_syaing_review_image_keepers">
+                <img class="customer_review_w_image" src="assets/homepage/best-in-calgary.jpg" alt="">
+                <img class="customer_review_w_image" src="assets/homepage/google-reviews.jpg" alt="">
+            </div>
+        </section>
+
+
+
+        <footer class="arek_footer">
+            
+            <section class="footer_section_top">
+                <div class="footer_section_top_inside">
+                    <h2 class="footer_section_top_heading">Please inquire today to get a personalized quote and discover our reasonable rates!</h2>
+
+                    <div class="footer_section_top_item_keepers">
+                        <div class="footer_section_top_item">
+                            <span class="material-icons footer_section_top_i_icon">task</span>
+                            <h2 class="footer_section_top_i_text">Inquire online and we will be in-touch within 24 hours</h2>
+                            <a class="common_btn_home">INQUIRE NOW</a>
+                        </div>
+
+                        <div class="footer_section_top_item">
+                            <span class="material-icons footer_section_top_i_icon">sim_card_download</span>
+                            <h2 class="footer_section_top_i_text">Download our Information Package to learn more</h2>
+                            <a onclick="showDownloadBtn()" class="common_btn_home">DOWNLOAD</a>
+                        </div>
+
+                        <div class="footer_section_top_item">
+                            <span class="material-icons footer_section_top_i_icon">turn_right</span>
+                            <h2 class="footer_section_top_i_text">Ready to have your property 5 Star Professionally Managed?</h2>
+                            <a class="common_btn_home">GET STARTED</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="footer_section_middle">
+                <div class="footer_section_middle_inside">
+
+                    <h2 class="follow_us_cls">Follow Us <img class="follow_us_img" src="assets/footer/instagram-icon.png" alt=""></h2>
+                    <div class="follow_us_item_keeper">
+                        <a href="#" class="follow_us_anchor">
+                            <div class="follow_us_a_inside" style="background-image: url('assets/footer/332157990_1203096663668709_8618437963216702900_nlow.jpg');">
+                            </div>
+                        </a>
+                        <a href="#" class="follow_us_anchor">
+                            <div class="follow_us_a_inside" style="background-image: url('assets/footer/320977093_1859513584382018_2245503742287737759_nlow.jpg');">
+                            </div>
+                        </a>
+                        <a href="#" class="follow_us_anchor">
+                            <div class="follow_us_a_inside" style="background-image: url('assets/footer/325821858_936232074417678_715396914935475103_nlow.jpg');">
+                            </div>
+                        </a>
+                        <a href="#" class="follow_us_anchor">
+                            <div class="follow_us_a_inside" style="background-image: url('assets/footer/324754744_713396593578265_1721994894333106784_nlow.jpg');">
+                            </div>
+                        </a>
+                        <a href="#" class="follow_us_anchor">
+                            <div class="follow_us_a_inside" style="background-image: url('assets/footer/324557662_902616584070522_3183301112256374589_nlow.jpg');">
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="follow_us_btn_keeper">
+                        <a class="common_btn_home">FOLLOW US</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="footer_section_bottom">
+                <div class="footer_section_bottom_inside">
+
+
+                    <div class="footer_item_keeper">
+                        <div class="footer_b_item">
+                            <div class="footer_b_img_keeper">
+                                <img class="footer_b_img" src="logo_upper_header.png" alt="">
+                            </div>
+                        </div>
+                        <div class="footer_b_item">
+                            <h2 class="footer_b_heading">CONTACT INFORMATION</h2>
+
+                            <div class="footer_b_item_subs">
+                                <p class="footer_b_anchor">Briere Property Management</p>
+                                <p class="footer_b_anchor"></p>Direct: 403-465-0404</p>
+                                <p class="footer_b_anchor"></p>Email: david@brierepm.com</p>
+                            </div>
+                        </div>
+                        <div class="footer_b_item">
+                            <h2 class="footer_b_heading">ADDRESS</h2>
+
+                            <div class="footer_b_item_subs">
+                                <p class="footer_b_anchor">8A - 4550 112 Avenue SE</p>
+                                <p class="footer_b_anchor"></p>Calgary, Alberta,</p>
+                                <p class="footer_b_anchor"></p>T2C 2K2</p>
+                            </div>
+                        </div>
+                        <div class="footer_b_item">
+                            <a href="#" class="footer_social_anchor"><i class="fa fa-facebook-f"></i></a>
+                            <a href="#" class="footer_social_anchor"><i class="fa fa-instagram"></i></a>
+                            <a href="#" class="footer_social_anchor"><i class="fa fa-twitter"></i></a>
+                            <a href="#" class="footer_social_anchor"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </footer>
+
+        
+
+        <div id="alert_box_window" style="display: none;">
+            
+            <div id="alert_box_inside">
+
+            </div>
+        </div>
+
+
+        <!-- Footer Script -->
+        <script src="library/main_script_0.0.3.js"></script>
+
+
+        <script>
+
+
+            const testimonials = [
+                {
+                    name: `Sang Jun Lee`,
+                    testimony: `He was my rental agent when I first moved to Calgary 4 years ago, now I purchased a condo with him. He is very profrssional and responsive all the time. I had a very tight schedule with purchase (less than 3 weeks) and he made it happen. Work with David, you won't regret it!`
+                },
+                {
+                    name: `Superman Yung`,
+                    testimony: `I first worked with David when I moved to Calgary and needed a rental. Fast forward 5 years, and I just bought my first home with his help. He’s incredibly knowledgeable and always available to answer my questions. The whole process was smooth and stress-free thanks to his expertise. Highly recommend David for any real estate needs!`
+                },
+                {
+                    name: `Sergio Jewt Hembrom`,
+                    testimony: `David was a tremendous help when I moved to Calgary 3 years ago. Now that I’ve bought my first home, I couldn’t have asked for a better realtor. His professionalism and dedication made everything so easy, even with my busy schedule. If you want someone who’s got your back, David is the one to call!`
+                }
+            ];
+
+
+            let testimonialIterator = 0;
+            function change_testimonials(option){
+                // Option can be prev or next
+                const len = testimonials.length;
+                if(option == "prev"){
+                    if(testimonialIterator == 0){
+                        testimonialIterator = len - 1;
+                    }else testimonialIterator--;
+                }else{
+                    if((testimonialIterator+1)==len){
+                        testimonialIterator = 0
+                    }else{
+                        testimonialIterator++;
+                    }
+                }
+                changeTestimonialHTML();
+            }
+
+            const customer_saying_commer = document.getElementById('customer_saying_commer');
+            const customer_saying_commenter = document.getElementById('customer_saying_commenter');
+
+            function changeTestimonialHTML(){
+                customer_saying_commer.innerHTML = testimonials[testimonialIterator].testimony;
+                customer_saying_commenter.innerHTML = testimonials[testimonialIterator].name;
+            }
+
+            changeTestimonialHTML();
+
+        </script>
+
+    </body>
+</html>
