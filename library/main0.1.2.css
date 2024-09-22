@@ -2735,6 +2735,49 @@ li {
   overflow-y: scroll;
 }
 
+.download_complete_container{
+  padding: 60px 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.download_complete_container img{
+  width: 100%;
+  max-width: 400px;
+  max-width: 300px;
+}
+.download_heading{
+  text-align: center;
+  font-weight: 500;
+  padding: 0 20px;
+  font-size: 20px;
+  margin-bottom: 120px;
+}
+
+.maintance_brief_container{
+  text-align: center;
+}
+.maintance_brief_container .download_heading{
+  margin-bottom: 20px;
+}
+
+.maintenance_text1{
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.maintenance_text2{
+  font-weight: 800;
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+.maintance_brief_container{
+  padding-bottom: 50px;
+}
+
+
+
 
 @-webkit-keyframes alert_animation_bottom {
   from {

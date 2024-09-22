@@ -1,3 +1,6 @@
+      
+        
+        
         <div id="follow_us" class="follow_social_media">
             <h2 class="follow_us_header">Follow Us On</h2>
             <div class="follow_us_item_contianer">

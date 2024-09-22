@@ -97,14 +97,16 @@ function returnDownloadPDFHTML(){
   const strHTML = `
   <div class="download_pdf_box">
       <div class="download_pdf_box_inside">
-          <h2 class="download_pdf_heading">Sign up and download our Information Package to learn more about our rates</h2>
-          <label class="download_pdf_label">Name</label>
-          <input class="download_pdf_input" type="text">
-          <label class="download_pdf_label">Email</label>
-          <input class="download_pdf_input" type="text">
-          <div class="download_btn_keeper">
-              <a class="common_btn_home"><span class="material-icons">download</span> DOWNLOAD</a>
-          </div>
+          <h2 class="download_pdf_heading">Sign up and down load our Information Package to learn more about our rates</h2>
+          <form action="download_pdf.php" method="post">
+            <label class="download_pdf_label">Name</label>
+            <input name="name" class="download_pdf_input" type="text" required>
+            <label class="download_pdf_label">Email</label>
+            <input name="email" class="download_pdf_input" type="email" required>
+            <div class="download_btn_keeper">
+                <button type="submit" class="common_btn_home"><span class="material-icons">download</span> DOWNLOAD</button>
+            </div>
+          <form>
       </div>
   </div>`;
   return strHTML;
@@ -120,22 +122,24 @@ function returnMaintenanceRequestHTML(){
           <p class="maintenance_tagline">*For maintenance emergencies please call your assigned property manager</p>
 
           <div>
+          <form action="maintenance_request.php" method="post"  enctype="multipart/form-data">
               <label class="download_pdf_label">Tenant Name</label>
-              <input class="download_pdf_input" type="text">
+              <input name="tenantName" class="download_pdf_input" type="text" required>
               <label class="download_pdf_label">Property Address</label>
-              <input class="download_pdf_input" type="text">
+              <input name="propertyAddress" class="download_pdf_input" type="text" required>
               <label class="download_pdf_label">Tenant Email</label>
-              <input class="download_pdf_input" type="email">
+              <input name="tenantEmail" class="download_pdf_input" type="email" required>
               <label class="download_pdf_label">Phone Number</label>
-              <input class="download_pdf_input" type="text">
+              <input name="phoneNumber" class="download_pdf_input" type="text" required>
               <label class="download_pdf_label">Description of Issue</label>
-              <textarea class="download_pdf_input download_pdf_textarea"></textarea>
+              <textarea name="descriptionOfIssue" class="download_pdf_input download_pdf_textarea" required></textarea>
               <label class="download_pdf_label">Upload Pictures</label>
-              <input class="download_pdf_input download_type_file" type="file">
+              <input type="file" accept="image/png, image/gif, image/jpeg, image/jpg" name="fileToUpload" class="download_pdf_input download_type_file" required>
 
               <div class="download_btn_keeper">
-                  <a class="common_btn_home">SEND</a>
+                  <button type="submit" class="common_btn_home">SEND</button>
               </div>
+            <form>
           </div>
       </div>
   </div>`;
