@@ -147,9 +147,49 @@ function returnMaintenanceRequestHTML(){
   return strHTML;
 }
 
+
+
+
+function returnInquireNowHTML(){
+  const strHTML = `
+  <div class="maintenance_request_box">
+      <div class="maintenance_request_box_inside">
+
+          <h2 class="maintenance_heading">Inquire About Management Services</h2>
+
+          <div>
+          <form action="maintenance_request.php" method="post"  enctype="multipart/form-data">
+              <label class="download_pdf_label">Name</label>
+              <input name="name" class="download_pdf_input" type="text" required>
+              <label class="download_pdf_label">Email</label>
+              <input name="email" class="download_pdf_input" type="email" required>
+              <label class="download_pdf_label">Phone Number</label>
+              <input name="phoneNumber" class="download_pdf_input" type="text" required>
+              <label class="download_pdf_label">Address</label>
+              <input name="address" class="download_pdf_input" type="text" required>
+              <label class="download_pdf_label">Description of Issue</label>
+              <textarea name="descriptionOfIssue" class="download_pdf_input download_pdf_textarea" required></textarea>
+              <label class="download_pdf_label">Upload Pictures</label>
+              <input type="file" accept="image/png, image/gif, image/jpeg, image/jpg" name="fileToUpload" class="download_pdf_input download_type_file" required>
+
+              <div class="download_btn_keeper">
+                  <button type="submit" class="common_btn_home">SEND</button>
+              </div>
+            <form>
+          </div>
+      </div>
+  </div>`;
+
+  return strHTML;
+}
+
+
+
 const showDownloadBtn = () => show_universal_modal( '600px', '400px', returnDownloadPDFHTML());
 
 const showMaintenanceBtn = () => show_universal_modal( '600px', '600px', returnMaintenanceRequestHTML());
+
+const showInquireBtn = () => show_universal_modal( '600px', '600px', returnInquireNowHTML());
 
 
 
