@@ -49,26 +49,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 if($stmt->execute()){
                     $row_affected = true;
 
-                    $to = "muzahid221@gmail.com, " . $tenantEmail;
-                    $subject = "Maintenance Request Submitted from " . $tenantName;
-
-                    $message = '<h2>Maintenance Request</h2>
-                    <br>
-                    <p>Tenant Name: '. $tenantName .'</p>
-                    <p>Property Address: ' . $propertyAddress . '</p>
-                    <p>Phone Number: ' . $phoneNumber . '</p>
-                    <br>
-                    <p>Description of the issue: ' . $descriptionOfIssue;
-                    
-
-                    $headers = "MIME-Version: 1.0" . "\r\n";
-                    $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-
-                    $headers .= 'From: Arek Property Management <admin@arekpm.com>' . "\r\n";
-
-                    $retval = mail($to,$subject,$message,$headers);  
-                    
-                    
                     
                     $mail_address = $tenantEmail;
                     $mail_subject = "Maintenance Request Submitted by " . $tenantName;
@@ -106,7 +86,7 @@ if($row_affected){
 
     echo '
         <div class="download_complete_container">
-            <img src="assets/undraw_mail_sent_re_0ofv.svg">
+            <img src="assets/HD_M431_07.svg">
         </div>
         <div class="maintance_brief_container">
             <h1 class="download_heading">Your maintenance requeest has been submitted</h1>

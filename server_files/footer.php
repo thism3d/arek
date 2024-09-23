@@ -11,7 +11,7 @@
                 <span class="material-icons footer_section_top_i_icon">task</span>
                 <h2 class="footer_section_top_i_text">Inquire online and we will be in-touch within 24 hours
                 </h2>
-                <a class="common_btn_home">INQUIRE NOW</a>
+                <a class="common_btn_home" onclick="showInquireBtn()">INQUIRE NOW</a>
             </div>
 
             <div class="footer_section_top_item">

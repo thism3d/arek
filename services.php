@@ -55,7 +55,7 @@ require_once "server_files/header.php";
             </div>
         </div>
         <div class="service_overview_btn_keeper">
-            <a class="common_btn_home"><span class="material-icons">more_vert</span> INQUIRE NOW</a>
+            <a class="common_btn_home" onclick="showInquireBtn()"><span class="material-icons">more_vert</span> INQUIRE NOW</a>
         </div>
     </section>
 

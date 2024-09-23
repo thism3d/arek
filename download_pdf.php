@@ -48,7 +48,7 @@ if($row_affected){
 
     echo '
         <div class="download_complete_container">
-            <img src="assets/undraw_completing_re_i7ap.svg">
+            <img src="assets/downloaded.png">
         </div>
 
         <h1 class="download_heading">Your PDF will be downloaded automatically</h1>
