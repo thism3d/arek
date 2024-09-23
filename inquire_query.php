@@ -22,11 +22,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         $row_affected = true;
 
         
-        $mail_address = $mail;
+        $mail_address = $email;
         $mail_subject = "Customer Inquiry Submitted from " . $name;
         
         $mail_html_body = 
-        '<h3>Custom Inquiry Submitted</h3>
+        '<h3>Customer Inquiry Submitted</h3>
         <p><i>Please check it out and reach out to the customer if necessary.</i></p>
         <br>
         <p><strong>Customer Inquiry Information</strong></p><hr>
