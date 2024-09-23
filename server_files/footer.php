@@ -24,7 +24,7 @@
                 <span class="material-icons footer_section_top_i_icon">turn_right</span>
                 <h2 class="footer_section_top_i_text">Ready to have your property 5 Star Professionally Managed?
                 </h2>
-                <a class="common_btn_home">GET STARTED</a>
+                <a class="common_btn_home"  href="tel:+14037012169">GET STARTED</a>
             </div>
         </div>
     </div>
@@ -72,7 +72,7 @@
         </div>
 
         <div class="follow_us_btn_keeper">
-            <a class="common_btn_home">FOLLOW US</a>
+            <a class="common_btn_home" href="https://www.facebook.com/GVcalgary">FOLLOW US</a>
         </div>
     </div>
 </section>

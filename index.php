@@ -18,7 +18,7 @@ require_once "server_files/header.php";
 
                 <div class="home_slider_button_keeper">
                     <a class="common_btn_home"><span class="material-icons">more_vert</span> INQUIRE NOW</a>
-                    <a class="common_btn_home"><span class="material-icons">more_vert</span> GET STARTED</a>
+                    <a class="common_btn_home" href="tel:+14037012169"><span class="material-icons">more_vert</span> GET STARTED</a>
                 </div>
             </div>
             <div class="home_page_slider_item"

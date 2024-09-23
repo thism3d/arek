@@ -425,6 +425,10 @@ li {
   text-decoration: none;
   text-transform: uppercase;
   transition: all 0.2s;
+  margin-bottom: 14px;
+  color: var(--text-primary-color);
+    padding-bottom: 14px;
+    display: inline-block;
 }
 
 .experience_item_link:hover {
@@ -657,6 +661,7 @@ li {
 .home_page_slider_item {
   width: 100%;
   background-color: #008793;
+  background-color: #fff7ac;
   height: calc(100vh - 72px);
   text-align: center;
 
