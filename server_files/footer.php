@@ -33,8 +33,10 @@
 <section class="footer_section_middle">
     <div class="footer_section_middle_inside">
 
-        <h2 class="follow_us_cls">Follow Us <img class="follow_us_img" src="assets/footer/instagram-icon.png"
-                alt=""></h2>
+        <!-- <h2 class="follow_us_cls">Follow Us 
+            <img class="follow_us_img" src="assets/footer/instagram-icon.png" alt="">
+        </h2>  -->
+        <!--
         <div class="follow_us_item_keeper">
             <a href="#" class="follow_us_anchor">
                 <div class="follow_us_a_inside"
@@ -62,6 +64,12 @@
                 </div>
             </a>
         </div>
+        -->
+        <br><br>
+        <div class="follow_us_item_contianer">
+            <a class="follow_us_item" href="https://www.facebook.com/GVcalgary"><img src="assets/social/facebook.svg.webp" alt="Arek Property Management | Follow us on Facebook: @GVcalgary"></a>
+            <a class="follow_us_item" href="https://www.instagram.com/arekrealty/"><img src="assets/social/instagram.png" alt="Arek Property Management | Follow us on Instagram: @arekrealty"></a>
+        </div>
 
         <div class="follow_us_btn_keeper">
             <a class="common_btn_home">FOLLOW US</a>
@@ -85,7 +93,7 @@
                 <div class="footer_b_item_subs">
                     <p class="footer_b_anchor">AREK Property Management
                     </p>
-                    <p class="footer_b_anchor">Direct: <a href="tel:++14037012169">403-701-2169</a>
+                    <p class="footer_b_anchor">Direct: <a href="tel:+14037012169">403-701-2169</a>
                     </p>
                     <p class="footer_b_anchor">Email: <a href="mailto:gvirdi@arekpm.com">gvirdi@arekpm.com</a>
                     </p>
@@ -95,16 +103,16 @@
                 <h2 class="footer_b_heading">ADDRESS</h2>
 
                 <div class="footer_b_item_subs">
-                    <p class="footer_b_anchor">8A - 4550 112 Avenue SE</p>
-                    <p class="footer_b_anchor"></p>Calgary, Alberta,</p>
-                    <p class="footer_b_anchor"></p>T2C 2K2</p>
+                    <p class="footer_b_anchor">1612 17 Ave SW</p>
+                    <p class="footer_b_anchor"></p>Calgary, Alberta</p>
+                    <p class="footer_b_anchor"></p>T2T 0E3</p>
                 </div>
             </div>
             <div class="footer_b_item">
-                <a href="#" class="footer_social_anchor"><i class="fa fa-facebook-f"></i></a>
-                <a href="#" class="footer_social_anchor"><i class="fa fa-instagram"></i></a>
-                <a href="#" class="footer_social_anchor"><i class="fa fa-twitter"></i></a>
-                <a href="#" class="footer_social_anchor"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/GVcalgary" class="footer_social_anchor"><i class="fa fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/arekrealty/" class="footer_social_anchor"><i class="fa fa-instagram"></i></a>
+                <!-- <a href="#" class="footer_social_anchor"><i class="fa fa-twitter"></i></a> -->
+                <!-- <a href="#" class="footer_social_anchor"><i class="fa fa-linkedin"></i></a> -->
             </div>
         </div>
 

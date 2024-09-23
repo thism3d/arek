@@ -48,6 +48,44 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 $stmt->bind_param("ssssss", $tenantName, $propertyAddress, $tenantEmail, $phoneNumber, $descriptionOfIssue,  $img  );
                 if($stmt->execute()){
                     $row_affected = true;
+
+                    $to = "muzahid221@gmail.com, " . $tenantEmail;
+                    $subject = "Maintenance Request Submitted from " . $tenantName;
+
+                    $message = '<h2>Maintenance Request</h2>
+                    <br>
+                    <p>Tenant Name: '. $tenantName .'</p>
+                    <p>Property Address: ' . $propertyAddress . '</p>
+                    <p>Phone Number: ' . $phoneNumber . '</p>
+                    <br>
+                    <p>Description of the issue: ' . $descriptionOfIssue;
+                    
+
+                    $headers = "MIME-Version: 1.0" . "\r\n";
+                    $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+
+                    $headers .= 'From: Arek Property Management <admin@arekpm.com>' . "\r\n";
+
+                    $retval = mail($to,$subject,$message,$headers);  
+                    
+                    
+                    
+                    $mail_address = $tenantEmail;
+                    $mail_subject = "Maintenance Request Submitted by " . $tenantName;
+                    
+                    $mail_html_body = 
+                    '<h3>Maintenance Requested</h3>
+                    <p><i>Solve it as soon as possible</i></p>
+                    <br>
+                    <p><strong>Tenant Information</strong></p><hr>
+                    <p><b>Tenant Name:</b> '. $tenantName .'</p>
+                    <p><b>Property Address:</b> ' . $propertyAddress . '</p>
+                    <p><b>Phone Number:</b> ' . $phoneNumber . '</p>
+                    <br>
+                    <p><b>Description of the issue:</b> ' . $descriptionOfIssue;
+                    
+                    $mail_paintext_body = "Maintenance Request has been submitted by " . $tenantName . ". Phone Number: " . $phoneNumber;
+                    require_once 'mail.php';
                 }
 
             }

@@ -4,7 +4,7 @@ $title = "Arek Property Management | Services";
 require_once "server_files/header.php";
 ?>
 
-    <section class="service_intro_container">
+    <section class="service_intro_container" style="background-image: url('assets/services/open-living-room-2023-11-27-05-17-33-utc.jpg'); background-position: top;">
         <h2 class="service_intro_heading">Expert Property Management</h2>
     </section>
 

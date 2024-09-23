@@ -18,7 +18,7 @@ require_once "server_files/header.php";
                 </p>
                 <p class="ast_brief asb_t3 asb_t3_two"><a href="contact">Contact us to find out more !!</a></p>
             </div>
-            <div class="about_section_top_right">
+            <div class="about_section_top_right" style="background-image: url('assets/about/luxury-modern-empty-room-interior-design-decoratio-2023-11-27-05-28-09-utc.jpg');">
             </div>
         </div>
     </section>
@@ -33,7 +33,7 @@ require_once "server_files/header.php";
 
                 <p class="ast_brief asb_t3 asb_t3_two"><a href="contact">Contact us to find out more !!</a></p>
             </div>
-            <div class="about_section_top_right about_section_bottom_right">
+            <div class="about_section_top_right about_section_bottom_right"  style="background-image: url('assets/about/young-confident-manager-of-furniture-department-wi-2023-11-27-05-10-41-utc.jpg');">
             </div>
         </div>
     </section>

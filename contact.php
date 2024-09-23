@@ -4,9 +4,9 @@ require_once "server_files/header.php";
 ?>
 
 
-    <section class="service_intro_container" style="background-image: url('assets/services/contact-hero.jpg');">
-        <h2 class="service_intro_heading">Stress-Free Calgary Area</h2>
-        <h2 class="service_intro_heading">Property Management</h2>
+    <section class="service_intro_container" style="background-image: url('assets/services/new-orleans-louisiana-skyline-2023-11-27-05-18-32-utc.jpg');">
+        <h2 class="service_intro_heading" style="text-shadow: 2px 3px 4px black;">Stress-Free Calgary Area</h2>
+        <h2 class="service_intro_heading" style="text-shadow: 2px 3px 4px black;">Property Management</h2>
     </section>
 
 
@@ -22,9 +22,9 @@ require_once "server_files/header.php";
         <div class="contact_info_item">
             <h2>Address</h2>
 
-            <p>8A – 4550 112 Avenue SE</p>
-            <p>Calgary, Alberta, </p>
-            <p>T2C 2K2</p>
+            <p>1612 17 Ave SW</p>
+            <p>Calgary, Alberta</p>
+            <p>T2T 0E3</p>
         </div>
     </section>
 

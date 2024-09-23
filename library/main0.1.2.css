@@ -674,6 +674,7 @@ li {
 .home_page_slider_header {
   font-size: 58px;
   color: #fff;
+  color: #000;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   text-shadow: 1px 1px 2px #333333;
@@ -683,9 +684,14 @@ li {
 .home_page_slider_desc {
   font-size: 24px;
   color: #fff;
+  color: #000;
   padding: 20px 40px;
   text-shadow: 1px 1px 2px #333333;
+  text-shadow: none;
+  text-shadow: 1px 1px 2px #fff;
+
   font-weight: 300;
+  font-weight: 500;
   width: 100%;
   max-width: 900px;
 }
@@ -2420,7 +2426,6 @@ li {
 
 .service_intro_container {
   padding: 120px 20px;
-  background-image: url('../assets/services/services-hero.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

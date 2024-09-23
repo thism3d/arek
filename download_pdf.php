@@ -17,6 +17,22 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     if($stmt->execute()){
         $row_affected = true;
+
+       
+        
+            
+        $mail_address = $email;
+        $mail_subject = 'Information Package Downloaded from Arek Property Manangement';
+        
+        $mail_html_body = 
+        '<h3>Thank You for Downloading</h3>
+        <br>
+        <p><strong>Downloader Information</strong></p>
+        <p>Name: '. $name .'</p>
+        <p>Email: '. $email.'</p>';
+        
+        $mail_paintext_body = "Thank yu for downloading the information package from Arek Property Management";
+        require_once 'mail.php';
     }
 
 
