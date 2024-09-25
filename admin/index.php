@@ -122,7 +122,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       <body>
 
 		<div id="logindiv">
-			<img id="mylogo" src="../logo.png">
+			<img id="mylogo" src="../favicon.png">
 
 			<form action="index" method="post" autocomplete="off">
                 <?php echo $error_no_user_found ? '<h3 style="color: red; text-align: center;">User Not Found</h3>' : ""; ?>
