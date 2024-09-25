@@ -109,23 +109,74 @@ li {
   background-repeat: no-repeat;
 }
 
+
 /* AREK PROPERTY MANAGEMENT */
 .upper_header {
   background-color: #26282a;
 }
 
 .upper_menu_logo_keeper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   text-align: center;
-  padding: 20px;
+  padding: 18px;
+  color: #ede597;
   background-color: #050608;
   background-color: #40454a;
   background-color: #000f1f;
 }
+.h3_p_div{
+  line-height: 14px;
+}
+
+.upper_phone {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.upper_h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.upper_p {
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 200;
+}
 
 .upper_menu_logo {
   width: 100%;
-  max-width: 220px;
+  max-width: 115px;
 }
+
+/* mobile_menu_responsive_part */
+@media only screen and (max-width: 675px) {
+  .upper_phone {
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .upper_menu_logo {
+    width: 100%;
+    max-width: 60px;
+  }
+  .upper_h3 {
+    font-size: 12px;
+    font-weight: 300;
+  }
+  
+  .upper_p {
+    padding-bottom: 0px;
+    font-size: 9px;
+    font-weight: 200;
+    margin-top: -9px;
+  }
+  .h3_p_div{
+    line-height: 13px;
+  }
+}
+/* mobile_menu_responsive_part_end */
 
 .upper_menu_nav {
   display: flex;

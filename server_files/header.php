@@ -1,4 +1,3 @@
-
 <?php
 
 
@@ -55,13 +54,16 @@ $title = isset($title) ? $title : "Arek Property Management | Your Home Team";
 
     <section class="upper_header">
         <div class="upper_menu_logo_keeper">
+            <P class="upper_phone">PHONE NUMBER : 403-701-2169 </P>
             <img class="upper_menu_logo" src="logo.png" alt="AREK PROPERTY MANAGEMENT | Logo">
-            <img class="upper_menu_logo" src="assets/homepage/brokerage_logo.png" alt="AREK PROPERTY MANAGEMENT | Logo">
-
+            <div class="h3_p_div">
+                <h3 class="upper_h3">AREK PROPERTY MANAGEMENT </h3> <br>
+                <p class="upper_p">PROPERTY MANAGEMENT</p>
+            </div>
         </div>
         <div class="upper_menu_nav">
             <a class="upper_menu_nav_link" target="_blank"
-                href="https://signin.managebuilding.com/Resident/portal/global-login">Renant Login</a>
+                href="https://signin.managebuilding.com/Resident/portal/global-login">Tenant Login</a>
             <p class="upper_menu_nav_border"> | </p>
             <a class="upper_menu_nav_link" target="_blank"
                 href="https://signin.managebuilding.com/Resident/portal/global-login">Owner Login</a>
@@ -118,11 +120,11 @@ $title = isset($title) ? $title : "Arek Property Management | Your Home Team";
     </div>
 
     <script>
-        const mobile_menu = document.getElementById("mobile_menu");
+    const mobile_menu = document.getElementById("mobile_menu");
 
-        function toogle_mobile_menu() {
-            if (mobile_menu.className == "header_mobile_menu") {
-                mobile_menu.className = "header_mobile_menu header_mobile_menu_show";
-            } else mobile_menu.className = "header_mobile_menu";
-        }
+    function toogle_mobile_menu() {
+        if (mobile_menu.className == "header_mobile_menu") {
+            mobile_menu.className = "header_mobile_menu header_mobile_menu_show";
+        } else mobile_menu.className = "header_mobile_menu";
+    }
     </script>
