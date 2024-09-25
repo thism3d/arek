@@ -106,7 +106,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html>
       <head>
 
-          <title>InterfineArt Admin</title>
+          <title>Arek Property Management | Admin Login</title>
           <meta name="robots" content="noindex">
           <meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1, initial-scale=1.0, user-scalable=no, shrink-to-fit=no" />
 
