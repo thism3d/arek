@@ -112,7 +112,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
           <!-- CSS For this Page -->
-          <link rel="icon" href="../logo.png">
+          <link rel="icon" href="../favicon.png">
           <link rel="stylesheet" href="library/login_css.css">
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
