@@ -27,7 +27,7 @@ require_once "server_files/header.php";
             style="background-image: url('assets/homepage/a-living-room-with-a-couch-and-a-chair-2023-11-27-04-52-01-utc.jpg');">
             <h1 class="home_page_slider_header">Who We Are?</h1>
             <p class="home_page_slider_desc">"We are property management company based out of Calgary, Alberta. We
-                specialize in high rise condo units, duplex triplex and single family homes. We Service Greater
+                specialize in high rise condo units, duplex, triplex and single family homes. We Service Greater
                 Calgary area including Canmore, Banff, Okotoks, High river, Chestermere, Airdrie and Cochrane."
             </p>
 

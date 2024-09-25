@@ -54,16 +54,16 @@ $title = isset($title) ? $title : "Arek Property Management | Your Home Team";
 
     <section class="upper_header">
         <div class="upper_menu_logo_keeper">
-            <P class="upper_phone">PHONE NUMBER : 403-701-2169 </P>
+            <a class="upper_phone" href="tel:+14037012169"><span class="material-icons">call</span> 403-701-2169</a>
             <img class="upper_menu_logo" src="logo.png" alt="AREK PROPERTY MANAGEMENT | Logo">
             <div class="h3_p_div">
-                <h3 class="upper_h3">AREK PROPERTY MANAGEMENT </h3> <br>
-                <p class="upper_p">PROPERTY MANAGEMENT</p>
+                <p class="upper_p">Elevate</p>
+                <p class="upper_p">Property Management</p>
             </div>
         </div>
         <div class="upper_menu_nav">
             <a class="upper_menu_nav_link" target="_blank"
-                href="https://signin.managebuilding.com/Resident/portal/global-login">Tenant Login</a>
+                href="https://signin.managebuilding.com/Resident/portal/global-login">Renant Login</a>
             <p class="upper_menu_nav_border"> | </p>
             <a class="upper_menu_nav_link" target="_blank"
                 href="https://signin.managebuilding.com/Resident/portal/global-login">Owner Login</a>
@@ -82,7 +82,7 @@ $title = isset($title) ? $title : "Arek Property Management | Your Home Team";
             <a class="menu_item" href="index">Home</a>
             <a class="menu_item" href="about">About</a>
             <a class="menu_item" href="services">Services</a>
-            <!-- <a class="menu_item" href="blog">Blog</a> -->
+            <a class="menu_item" href="blog">Blog</a>
             <a class="menu_item" href="contact">Contact</a>
             <!-- <a class="menu_item" >Podcasts</a>
                 <a class="menu_item" >Marketplace</a>
@@ -113,7 +113,7 @@ $title = isset($title) ? $title : "Arek Property Management | Your Home Team";
                 <a class="menu_item_desktop" href="index">Home</a>
                 <a class="menu_item_desktop" href="about">About</a>
                 <a class="menu_item_desktop" href="services">Services</a>
-                <!-- <a class="menu_item_desktop" href="blog">Blog</a> -->
+                <a class="menu_item_desktop" href="blog">Blog</a>
                 <a class="menu_item_desktop" href="contact">Contact</a>
             </div>
         </div>

@@ -8,11 +8,11 @@ require_once "server_files/header.php";
         <div class="about_section_top_left">
             <h2 class="ast_heading">ABOUT</h2>
             <p class="ast_tag">Experienced. Knowledgeable. Professional.</p>
-            <p class="ast_brief">"For reliable property management, look no further than AREK Property Management. We
+            <p class="ast_brief">For reliable property management, look no further than AREK Property Management. We
                 are a trusted name in Calgary and the surrounding areas, offering expert services in one of the hottest
                 real estate markets. With Calgary ranked among the top 10 cities globally, it has become a prime
                 location for buying and renting property. This thriving market presents outstanding opportunities, and
-                with our professional management, we help you make the most of your real estate investments."
+                with our professional management, we help you make the most of your real estate investments.
 
             </p>
             <p class="ast_brief asb_t3 asb_t3_two"><a href="contact">Contact us to find out more !!</a></p>

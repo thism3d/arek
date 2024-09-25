@@ -14,8 +14,7 @@ require_once "server_files/header.php";
 <section class="contact_info_container">
     <div class="contact_info_item">
 
-        <h2>Change Briere Property Management to AREK Property management.
-        </h2>
+        <h2>AREK Property management</h2>
 
         <p>Owner Property Manager</p>
         <a href="tel:+14037012169">
