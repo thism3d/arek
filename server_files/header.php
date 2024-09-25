@@ -63,7 +63,7 @@ $title = isset($title) ? $title : "Arek Property Management | Your Home Team";
         </div>
         <div class="upper_menu_nav">
             <a class="upper_menu_nav_link" target="_blank"
-                href="https://signin.managebuilding.com/Resident/portal/global-login">Renant Login</a>
+                href="https://signin.managebuilding.com/Resident/portal/global-login">Tenant Login</a>
             <p class="upper_menu_nav_border"> | </p>
             <a class="upper_menu_nav_link" target="_blank"
                 href="https://signin.managebuilding.com/Resident/portal/global-login">Owner Login</a>
