@@ -1,4 +1,8 @@
 <?php
+$header_extra_tags = '<!-- Owl Carousel Slider -->
+    <link rel="stylesheet" href="library/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="library/owlcarousel/owl.theme.default.min.css">
+    <script src="library/owlcarousel/owl.carousel.min.js"></script>';
 require_once "server_files/header.php";
 ?>
 

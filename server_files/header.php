@@ -2,11 +2,17 @@
 
 
 $title = isset($title) ? $title : "Arek Property Management | Your Home Team";
+$meta_description = isset($meta_description) ? $meta_description : "Experience peace of mind with Arek's expert property management services. We handle everything from tenant screening to maintenance, maximizing your rental income and minimizing your stress. Your home is in good hands with Arek.";
+
+
+$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
+$currentUrl = $protocol . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+$canonical = '<link rel="canonical" href="' . htmlspecialchars($currentUrl, ENT_QUOTES, 'UTF-8') . '" />';
 
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title><?php echo $title; ?></title>
@@ -16,44 +22,32 @@ $title = isset($title) ? $title : "Arek Property Management | Your Home Team";
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, user-scalable=no, shrink-to-fit=no" />
-    <meta name="description"
-        content="Experience peace of mind with Arek's expert property management services. We handle everything from tenant screening to maintenance, maximizing your rental income and minimizing your stress. Your home is in good hands with Arek.">
+    <meta name="description" content="<?php echo $meta_description; ?>">
 
+    <?php echo isset($header_extra_tags) ? $header_extra_tags : ''; ?>
+    
+    <!-- Canonical -->
+    <?php echo $canonical; ?>
 
-   <!-- Manifest Link -->
-   <link rel="manifest" href="manifest.json" />
+    <!-- Manifest Link -->
+    <link rel="manifest" href="manifest.json" />
 
-   <!-- Place favicon.ico in the root directory -->
-   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
     <!-- Font Awesome Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
     <!-- Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
 
 
     <!-- CSS For this Page -->
     <link rel="icon" href="favicon_round.png">
     <link rel="stylesheet" href="library/main0.1.2.css">
 
-
     <!-- jQuery 3.5.1 -->
     <script src="library/jquery.min.js"></script>
-
-
-
-
-    <!-- Owl Carousel Slider -->
-    <link rel="stylesheet" href="library/owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="library/owlcarousel/owl.theme.default.min.css">
-    <script src="library/owlcarousel/owl.carousel.min.js"></script>
-
-
-
 </head>
 
 <body>
