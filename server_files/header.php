@@ -20,6 +20,12 @@ $title = isset($title) ? $title : "Arek Property Management | Your Home Team";
         content="Experience peace of mind with Arek's expert property management services. We handle everything from tenant screening to maintenance, maximizing your rental income and minimizing your stress. Your home is in good hands with Arek.">
 
 
+   <!-- Manifest Link -->
+   <link rel="manifest" href="manifest.json" />
+
+   <!-- Place favicon.ico in the root directory -->
+   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
 
     <!-- Font Awesome Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -31,7 +37,7 @@ $title = isset($title) ? $title : "Arek Property Management | Your Home Team";
 
 
     <!-- CSS For this Page -->
-    <link rel="icon" href="favicon.png">
+    <link rel="icon" href="favicon_round.png">
     <link rel="stylesheet" href="library/main0.1.2.css">
 
 

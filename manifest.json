@@ -1,0 +1,38 @@
+{
+  "short_name": "Arek PM",
+  "name": "Arek Property Management",
+  "description": "Experience peace of mind with Arek's expert property management services. We handle everything from tenant screening to maintenance, maximizing your rental income and minimizing your stress. Your home is in good hands with Arek.",
+  "id": "com.arekpm.app",
+  "version": "1.0.0",
+  "icons": [
+    {
+      "src": "icns/192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icns/256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "icns/512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot-wide.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "label": "Wide Screenshot of Arek Property Management App"
+    }
+  ],
+  "display_override": ["fullscreen", "minimal-ui"],
+  "start_url": "index",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffd600",
+  "orientation": "portrait"
+}

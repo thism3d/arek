@@ -1,6 +1,6 @@
 <?php
 $row_affected = false;       // Default Initialisation
-
+$row_affected = true;        // Hack
 
 if($_SERVER["REQUEST_METHOD"] == "POST"){
 
@@ -31,19 +31,21 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <p>Name: '. $name .'</p>
         <p>Email: '. $email.'</p>';
         
-        $mail_paintext_body = "Thank yu for downloading the information package from Arek Property Management";
+        $mail_paintext_body = "Thank you for downloading the information package from Arek Property Management";
         require_once 'mail.php';
     }
 
 
 
 
-}else{
-    header("Location: index.php");
 }
+// else{
+//     header("Location: index.php");
+// }
 
 
 if($row_affected){
+    $title = "Arek Property Management | Download Brochure";
     require_once 'server_files/header.php';
 
     echo '
@@ -78,12 +80,10 @@ if($row_affected){
     ';
 
     require_once 'server_files/footer.php';
-}else{
-    header("Location: index.php");
 }
-
-
-
+// else{
+//     header("Location: index.php");
+// }
 
 
 ?>
