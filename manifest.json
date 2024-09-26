@@ -1,9 +1,9 @@
 {
-  "short_name": "Arek Property Management",
+  "short_name": "Arek Realty",
   "name": "Arek Property Management",
   "description": "Experience peace of mind with Arek's expert property management services. We handle everything from tenant screening to maintenance, maximizing your rental income and minimizing your stress. Your home is in good hands with Arek.",
   "id": "com.arekpm.app",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "icons": [
     {
       "src": "icns/192x192.png",
