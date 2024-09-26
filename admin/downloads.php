@@ -32,7 +32,7 @@ include 'admin_server_files/admin_header.php';
 
 					<?php
 
-					$sql = 'SELECT timeadded, id, name, email FROM download_form_table ORDER BY id DESC;';
+					$sql = 'SELECT timeadded, id, name, email, phoneNumber FROM download_form_table ORDER BY id DESC;';
 					$result = $conn->query($sql);
 					if ($result->num_rows > 0) {
 						while($row = $result->fetch_assoc()) {
@@ -50,6 +50,7 @@ include 'admin_server_files/admin_header.php';
 											<p class="mystd_basic_info_name">'. $row["name"] .'</p>
 											<p class="mystd_basic_info_bs"><span class="material-icons">event</span> '. date("dS M, Y H:i A", strtotime($row["timeadded"])) .'</p>
 											<p class="mystd_basic_info_bs"><span class="material-icons">mail</span> '. $row["email"] .'</p>
+											<p class="mystd_basic_info_bs"><span class="material-icons">phone</span> '. $row["phoneNumber"] .'</p>
 											<p></p>
 										</div>
 

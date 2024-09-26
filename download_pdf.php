@@ -11,9 +11,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     $name = $_POST["name"];
     $email = $_POST["email"];
+    $phoneNumber = $_POST["phoneNumber"];
 
-    $stmt = $conn->prepare("INSERT INTO download_form_table (name, email) VALUES (?, ?)");
-    $stmt->bind_param("ss", $name, $email);
+    $stmt = $conn->prepare("INSERT INTO download_form_table (name, email, phoneNumber) VALUES (?, ?, ?)");
+    $stmt->bind_param("sss", $name, $email, $phoneNumber);
 
     if($stmt->execute()){
         $row_affected = true;
@@ -29,7 +30,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <br>
         <p><strong>Downloader Information</strong></p>
         <p>Name: '. $name .'</p>
-        <p>Email: '. $email.'</p>';
+        <p>Email: '. $email.'</p>
+        <p>Phone Number: '. $phoneNumber.'</p>';
         
         $mail_paintext_body = "Thank you for downloading the information package from Arek Property Management";
         require_once 'mail.php';

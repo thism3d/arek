@@ -103,6 +103,8 @@ function returnDownloadPDFHTML(){
             <input name="name" class="download_pdf_input" type="text" required>
             <label class="download_pdf_label">Email</label>
             <input name="email" class="download_pdf_input" type="email" required>
+            <label class="download_pdf_label">Phone Number</label>
+            <input name="phoneNumber" class="download_pdf_input" type="text" required>
             <div class="download_btn_keeper">
                 <button type="submit" class="common_btn_home"><span class="material-icons">download</span> DOWNLOAD</button>
             </div>
