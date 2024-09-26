@@ -185,7 +185,7 @@ function returnInquireNowHTML(){
 
 
 
-const showDownloadBtn = () => show_universal_modal( '600px', '400px', returnDownloadPDFHTML());
+const showDownloadBtn = () => show_universal_modal( '600px', '500px', returnDownloadPDFHTML());
 
 const showMaintenanceBtn = () => show_universal_modal( '600px', '600px', returnMaintenanceRequestHTML());
 
