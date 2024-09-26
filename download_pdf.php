@@ -65,7 +65,7 @@ if($row_affected){
                 link.href = pdfUrl;
 
                 // Set the download attribute for the PDF
-                link.download = "Property Managaement Proposal - Landlord.pdf";
+                link.download = "Property Management Proposal - Landlord.pdf";
 
                 // Append the link to the body (this step is optional)
                 document.body.appendChild(link);
