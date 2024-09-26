@@ -32,7 +32,6 @@ $canonical = '<link rel="canonical" href="' . htmlspecialchars($currentUrl, ENT_
     <link rel="manifest" href="manifest.json" />
     <meta name="theme-color" content="#000f1f">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="apple-touch-icon" href="icns/512x512.png">
     <link rel="apple-touch-startup-image" href="logo_upper_header.png">
 
