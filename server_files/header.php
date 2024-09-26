@@ -23,12 +23,19 @@ $canonical = '<link rel="canonical" href="' . htmlspecialchars($currentUrl, ENT_
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, user-scalable=no, shrink-to-fit=no" />
     <meta name="description" content="<?php echo $meta_description; ?>">
+
     
     <!-- Canonical -->
     <?php echo $canonical; ?>
 
-    <!-- Manifest Link -->
+    <!-- PWA Code -->
     <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#ffd600">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" href="icns/512x512.png">
+    <link rel="apple-touch-startup-image" href="logo_upper_header.png">
+
 
     <!-- Place favicon.ico in the root directory -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
