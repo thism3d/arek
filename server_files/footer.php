@@ -2,8 +2,7 @@
 
     <section class="footer_section_top">
         <div class="footer_section_top_inside">
-            <h2 class="footer_section_top_heading">Please inquire today to get a personalized quote and discover our
-                reasonable rates!</h2>
+            <h2 class="footer_section_top_heading">Reach out today for a custom quote and discover our competitive rates!</h2>
 
             <div class="footer_section_top_item_keepers">
                 <div class="footer_section_top_item">

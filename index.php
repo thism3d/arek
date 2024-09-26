@@ -128,7 +128,7 @@ $(document).ready(function() {
                 items: 1,
             },
         },
-        smartSpeed: 1000, // Transition speed when clicking navigation buttons (1 second)
+        smartSpeed: 2000, // Transition speed when clicking navigation buttons (1 second)
         autoplaySpeed: 1000 // Transition speed during autoplay (1 second)
     });
 });
@@ -165,9 +165,9 @@ $(document).ready(function() {
     <div class="customer_syaing_review_image_keepers">
         <!-- <img class="customer_review_w_image" src="assets/homepage/best-in-calgary.jpg" alt="">
         <img class="customer_review_w_image" src="assets/homepage/google-reviews.jpg" alt=""> -->
-        <p class="customar_review_sec">
+        <!-- <p class="customar_review_sec">
             "Reach out today for a custom quote and discover our competitive rates!"
-        </p>
+        </p> -->
     </div>
 </section>
 

@@ -11,11 +11,13 @@ require_once "server_files/header.php";
 
 
 <section class="services_intro_another">
-    <p class="services_intro_another_p">At Arek Property Management, our mission is to we'll always provide our best
+    <h2 class="services_intro_another_p service_intro_heading">Protecting your investment with care</h2>
+    <p class="services_intro_another_p">Managing and maintaining the property can be time consuming and challenging. We are here to help bridge the often complicated gap between owners and tenants. Our team of highly skilled professionals is dedicated to be providing exceptional customer care, ensuring peace of mind while safeguarding your investment as if it were our own.</p>
+    <!-- <p class="services_intro_another_p">At Arek Property Management, our mission is to we'll always provide our best
         services. We are committed to delivering
         excellence in every project we undertake. Our team consists of dedicated professionals who bring a wealth of
         experience and expertise in Arek Property Management.
-    </p>
+    </p> -->
 </section>
 
 <section class="services-overview">

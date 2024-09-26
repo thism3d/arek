@@ -55,7 +55,7 @@ $title = isset($title) ? $title : "Arek Property Management | Your Home Team";
     <section class="upper_header">
         <div class="upper_menu_logo_keeper">
             <a class="upper_phone" href="tel:+14037012169"><span class="material-icons">call</span> 403-701-2169</a>
-            <img class="upper_menu_logo" src="logo.png" alt="AREK PROPERTY MANAGEMENT | Logo">
+            <img class="upper_menu_logo" src="header_logo.png" alt="AREK PROPERTY MANAGEMENT | Logo">
             <div class="h3_p_div">
                 <p class="upper_p">Elevate</p>
                 <p class="upper_p">Property Management</p>

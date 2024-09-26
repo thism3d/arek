@@ -56,14 +56,14 @@ if($row_affected){
         <script>
             window.onload = function() {
                 // URL of the PDF file
-                var pdfUrl = "assets/pdf/PersonalCV.pdf";
+                var pdfUrl = "assets/pdf/Proposal.pdf";
 
                 // Create an anchor element
                 var link = document.createElement("a");
                 link.href = pdfUrl;
 
                 // Set the download attribute for the PDF
-                link.download = "Arek_Property.pdf";
+                link.download = "Property Managaement Proposal - Landlord.pdf";
 
                 // Append the link to the body (this step is optional)
                 document.body.appendChild(link);

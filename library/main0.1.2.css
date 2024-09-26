@@ -157,7 +157,7 @@ li {
 
 .upper_menu_logo {
   width: 100%;
-  max-width: 115px;
+  max-width: 150px;
 }
 
 /* mobile_menu_responsive_part */
@@ -2523,6 +2523,12 @@ li {
   margin: 0;
   max-width: 608px;
   margin: 0 auto;
+}
+
+.service_intro_heading{
+  font-size: 27px;
+  font-weight: 800;
+  margin-bottom: 30px;
 }
 
 .services-overview {
