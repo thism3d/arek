@@ -23,8 +23,6 @@ $canonical = '<link rel="canonical" href="' . htmlspecialchars($currentUrl, ENT_
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, user-scalable=no, shrink-to-fit=no" />
     <meta name="description" content="<?php echo $meta_description; ?>">
-
-    <?php echo isset($header_extra_tags) ? $header_extra_tags : ''; ?>
     
     <!-- Canonical -->
     <?php echo $canonical; ?>
@@ -48,6 +46,9 @@ $canonical = '<link rel="canonical" href="' . htmlspecialchars($currentUrl, ENT_
 
     <!-- jQuery 3.5.1 -->
     <script src="library/jquery.min.js"></script>
+
+    
+    <?php echo isset($header_extra_tags) ? $header_extra_tags : ''; ?>
 </head>
 
 <body>
