@@ -47,7 +47,7 @@ if ($result->num_rows > 0) {
 		  <!--  <link rel="stylesheet" href="../main_v0.0.3.css">-->
   	      <link rel="stylesheet" href="library/main0.0.1.css"> <!-- Oncher Website CSS -->
   	      <link rel="stylesheet" href="library/main_admin<?php echo $version; ?>.css">
-  	      <link rel="stylesheet" href="../library/main0.1.2.css"> <!-- Main Website CSS -->
+  	      <link rel="stylesheet" href="../library/main0.1.3.css"> <!-- Main Website CSS -->
 
         <!-- Font Awesome Link -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
