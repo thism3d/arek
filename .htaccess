@@ -4,11 +4,19 @@
     # Remove .php extension
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME}\.php -f
-    RewriteRule ^(.*)$ $1.php
+    RewriteRule ^(.*)$ $1.php [L]
 
     # Remove .html extension
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME}\.html -f
-    RewriteRule ^(.*)$ $1.html
+    RewriteRule ^(.*)$ $1.html [L]
 
+    # Redirect error codes to error.html
+    ErrorDocument 400 /error.html
+    ErrorDocument 401 /error.html
+    ErrorDocument 403 /error.html
+    ErrorDocument 404 /error.html
+    ErrorDocument 500 /error.html
+    ErrorDocument 502 /error.html
+    ErrorDocument 503 /error.html
 </IfModule>
