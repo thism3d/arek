@@ -28,6 +28,17 @@ $canonical = '<link rel="canonical" href="' . htmlspecialchars($currentUrl, ENT_
     <!-- Canonical -->
     <?php echo $canonical; ?>
 
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VKLD2KTQ7L"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-VKLD2KTQ7L');
+    </script>
+
     <!-- PWA Code -->
     <link rel="manifest" href="manifest.json" />
     <meta name="theme-color" content="#000f1f">

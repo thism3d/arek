@@ -1,2 +1,14 @@
 User-agent: *
-Disallow: /
+Disallow: /admin/
+Disallow: /apis/
+Disallow: /library/
+Disallow: /server_files/
+Disallow: /vendor/
+Disallow: /.htaccess
+Disallow: /CloudflareClientCertificate.txt
+Disallow: /composer.json
+Disallow: /composer.lock
+Disallow: /cookies.php
+Disallow: /error.html
+Disallow: /github_instructions.txt
+Disallow: /mail.php
