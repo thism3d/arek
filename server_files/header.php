@@ -60,6 +60,7 @@ $canonical = '<link rel="canonical" href="' . htmlspecialchars($currentUrl, ENT_
 <body>
 
     <section class="upper_header">
+        
         <div class="upper_menu_logo_keeper">
             <a class="upper_phone" href="tel:+14037012169"><span class="material-icons">call</span> 403-701-2169</a>
             <img class="upper_menu_logo" src="header_logo.png" alt="AREK PROPERTY MANAGEMENT | Logo">
@@ -81,9 +82,9 @@ $canonical = '<link rel="canonical" href="' . htmlspecialchars($currentUrl, ENT_
     <header class="header">
         <a href="index" class="logo_keepers">
             <img class="logo_main" src="logo.png"
-                alt="InterFineArt | Explore Fine Art, Galleries, and Creativity Online">
+                alt="Arek Property Management">
             <img class="logo_extension" src="logo_extension.png"
-                alt="InterFineArt | Explore Fine Art, Galleries, and Creativity Online">
+                alt="Arek Property Management">
         </a>
         <div class="menu_keeper">
             <a class="menu_item" href="index">Home</a>
@@ -109,9 +110,9 @@ $canonical = '<link rel="canonical" href="' . htmlspecialchars($currentUrl, ENT_
             <div class="header_mobile_heading">
                 <div class="logo_keepers">
                     <img class="logo_main" src="logo.png"
-                        alt="InterFineArt | Explore Fine Art, Galleries, and Creativity Online">
+                        alt="Arek Property Management">
                     <img class="logo_extension" src="logo_extension.png"
-                        alt="InterFineArt | Explore Fine Art, Galleries, and Creativity Online">
+                        alt="Arek Property Management">
                 </div>
                 <a onclick="toogle_mobile_menu()" class="menu_mobile_button"><i class="fa fa-remove"></i></a>
             </div>

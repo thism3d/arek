@@ -3,7 +3,7 @@
   "name": "Arek Property Management",
   "description": "Experience peace of mind with Arek's expert property management services. We handle everything from tenant screening to maintenance, maximizing your rental income and minimizing your stress. Your home is in good hands with Arek.",
   "id": "com.arekpm.app",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "icons": [
     {
       "src": "icns/192x192.png",

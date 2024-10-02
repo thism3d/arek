@@ -102,7 +102,7 @@ if ($result->num_rows > 0) {
 				  <div id="first_section">    <!-- First Section Starts Here -->
 
 					<div id="left_first_section">
-					  <a href="index"><img src="../logo.png" alt="InterfineArt Logo"></a>
+					  <a href="index"><img src="../logo.png" alt="Arek Property Management Logo"></a>
 					</div>
 
 					<div id="right_first_section">

@@ -22,7 +22,7 @@
                     <span class="material-icons footer_section_top_i_icon">turn_right</span>
                     <h2 class="footer_section_top_i_text">Ready to have your property professionally managed?
                     </h2>
-                    <a class="common_btn_home" href="tel:+14037012169">GET STARTED</a>
+                    <a class="common_btn_home" href="https://form.jotform.com/242754431312045">GET STARTED</a>
                 </div>
             </div>
         </div>

@@ -23,7 +23,7 @@ require_once "server_files/header.php";
             <div class="home_slider_button_keeper">
                 <a class="common_btn_home" onclick="showInquireBtn()"><span class="material-icons">more_vert</span>
                     INQUIRE NOW</a>
-                <a class="common_btn_home" href="tel:+14037012169"><span class="material-icons">more_vert</span> GET
+                <a class="common_btn_home" href="https://form.jotform.com/242754431312045"><span class="material-icons">more_vert</span> GET
                     STARTED</a>
             </div>
         </div>
@@ -40,7 +40,7 @@ require_once "server_files/header.php";
             <div class="home_slider_button_keeper">
                 <a class="common_btn_home" onclick="showInquireBtn()"><span class="material-icons">more_vert</span>
                     INQUIRE NOW</a>
-                <a class="common_btn_home" href="tel:+14037012169"><span class="material-icons">more_vert</span> GET
+                <a class="common_btn_home" href="https://form.jotform.com/242754431312045"><span class="material-icons">more_vert</span> GET
                     STARTED</a>
             </div>
         </div>
