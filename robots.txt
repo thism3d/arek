@@ -1,7 +1,6 @@
 User-agent: *
 Disallow: /admin/
 Disallow: /apis/
-Disallow: /library/
 Disallow: /server_files/
 Disallow: /vendor/
 Disallow: /.htaccess
