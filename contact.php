@@ -29,7 +29,9 @@ require_once "server_files/header.php";
 
         <p>1612 17 Ave SW</p>
         <p>Calgary, Alberta</p>
-        <p>T2T 0E3</p>
+        <a target="_blank" href="https://maps.app.goo.gl/BSEruRxrUNxhujV77">
+            <p>T2T 0E3</p>
+        </a>
     </div>
 </section>
 

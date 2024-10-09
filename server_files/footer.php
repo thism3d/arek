@@ -105,11 +105,11 @@
                 <div class="footer_b_item">
                     <h2 class="footer_b_heading">ADDRESS</h2>
 
-                    <div class="footer_b_item_subs">
+                    <a target="_blank" href="https://maps.app.goo.gl/BSEruRxrUNxhujV77" class="footer_b_item_subs" style="color: #fff;">
                         <p class="footer_b_anchor">1612 17 Ave SW</p>
                         <p class="footer_b_anchor"></p>Calgary, Alberta</p>
-                        <p class="footer_b_anchor"></p>T2T 0E3</p>
-                    </div>
+                        <p class="footer_b_anchor"></p>T2T 0E3 <i  style="color: #336699;" class="fa fa-map-pin"></i></p>
+                    </a>
                 </div>
                 <div class="footer_b_item">
                     <a href="https://www.facebook.com/GVcalgary" class="footer_social_anchor"><i
