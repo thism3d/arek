@@ -118,7 +118,7 @@
                     <a target="_blank" href="https://maps.app.goo.gl/BSEruRxrUNxhujV77" class="footer_b_item_subs" style="color: #fff;">
                         <p class="footer_b_anchor">1612 17 Ave SW</p>
                         <p class="footer_b_anchor"></p>Calgary, Alberta</p>
-                        <p class="footer_b_anchor"></p>T2T 0E3 <i  style="color: #336699;" class="fa fa-map-pin"></i></p>
+                        <p class="footer_b_anchor"></p>T2T 0E3 <i  style="color: #03A9F4;" class="fa fa-map-pin"></i></p>
                     </a>
                 </div>
                 <div class="footer_b_item">

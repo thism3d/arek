@@ -67,7 +67,7 @@ $canonical = '<link rel="canonical" href="' . htmlspecialchars($currentUrl, ENT_
 
     <!-- CSS For this Page -->
     <link rel="icon" href="favicon_round.png">
-    <link rel="stylesheet" href="library/main0.1.3.css?v102">
+    <link rel="stylesheet" href="library/main0.1.3.css?v103">
 
     <!-- jQuery 3.5.1 -->
     <script src="library/jquery.min.js"></script>
