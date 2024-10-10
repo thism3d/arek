@@ -65,17 +65,27 @@
         -->
             <br><br>
             <div class="follow_us_item_contianer">
-                <a class="follow_us_item" href="https://www.facebook.com/profile.php?id=61565897744373"><img
+                <a class="follow_us_item" href="https://www.facebook.com/arekpm.ca"><img
                         src="assets/social/facebook.svg.webp"
-                        alt="Arek Property Management | Follow us on Facebook: @GVcalgary"></a>
+                        alt="Arek Property Management | Follow us on Facebook: @arekpm.ca"></a>
+                <a class="follow_us_item" href="https://www.instagram.com/arekpm.ca"><img
+                        src="assets/social/instagram.png"
+                        alt="Arek Property Management | Follow us on Instagram: @arekpm.ca"></a>
+                <a class="follow_us_item" href="https://x.com/ArekProperty"><img
+                        src="assets/social/x.svg.png"
+                        alt="Arek Property Management | Follow us on X: @ArekProperty"></a>
                 <a class="follow_us_item follow_us_item_linkedin"
                     href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQHm63xuIB4NhwAAAZIlg4QIpWcpP1Vl4eUZTnsTgd0lK4vDYBpjdh9X2MIF7Palt2aaP7HhssMfke5buWiH5CsPRKOF4oUZQQxj6B8sz_b9Ab-iNEVU7IaQIpYwvvWPxiYhU80=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fgurpreet-virdi-arek-property-management-428b61327"><img
                         src="assets/social/linkedin.png"
                         alt="Arek Property Management | Follow us on Linkedin: @arekrealty"></a>
+                <a class="follow_us_item follow_us_item_linkedin"
+                    href="https://calgarypropertymanagement.link"><img
+                        src="assets/social/gravatar.jpg"
+                        alt="Arek Property Management | Follow us on Gravatar: https://calgarypropertymanagement.link"></a>
             </div>
 
             <div class="follow_us_btn_keeper">
-                <a class="common_btn_home" href="https://www.facebook.com/GVcalgary">FOLLOW US</a>
+                <a class="common_btn_home" href="https://www.facebook.com/arekpm.ca">FOLLOW US</a>
             </div>
         </div>
     </section>
@@ -112,12 +122,12 @@
                     </a>
                 </div>
                 <div class="footer_b_item">
-                    <a href="https://www.facebook.com/GVcalgary" class="footer_social_anchor"><i
+                    <a href="https://www.facebook.com/arekpm.ca" class="footer_social_anchor"><i
                             class="fa fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/arekrealty/" class="footer_social_anchor"><i
+                    <a href="https://www.instagram.com/arekpm.ca" class="footer_social_anchor"><i class="fa fa-instagram"></i></a>
+                    <a href="https://x.com/ArekProperty" class="footer_social_anchor"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQHm63xuIB4NhwAAAZIlg4QIpWcpP1Vl4eUZTnsTgd0lK4vDYBpjdh9X2MIF7Palt2aaP7HhssMfke5buWiH5CsPRKOF4oUZQQxj6B8sz_b9Ab-iNEVU7IaQIpYwvvWPxiYhU80=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fgurpreet-virdi-arek-property-management-428b61327" class="footer_social_anchor"><i
                             class="fa fa-linkedin"></i></a>
-                    <!-- <a href="#" class="footer_social_anchor"><i class="fa fa-twitter"></i></a> -->
-                    <!-- <a href="#" class="footer_social_anchor"><i class="fa fa-linkedin"></i></a> -->
                 </div>
             </div>
 
@@ -137,6 +147,14 @@
 
 <!-- Footer Script -->
 <script src="library/main_script_0.0.4.js"></script>
+
+
+
+<!-- Calendly badge widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/arekpm-info?hide_gdpr_banner=1&primary_color=000000', text: 'Book Consultation', color: '#fff176', textColor: '#333333', branding: true }); }</script>
+<!-- Calendly badge widget end -->
 
 
 

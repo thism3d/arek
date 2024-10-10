@@ -5,7 +5,7 @@ require_once "server_files/header.php";
 
 
 <section class="service_intro_container"
-    style="background-image: url('assets/services/new-orleans-louisiana-skyline-2023-11-27-05-18-32-utc.jpg');">
+    style="background-image: url('assets/services/booking.jpg');">
     <h2 class="service_intro_heading" style="text-shadow: 2px 3px 4px black;">Book Your Appointment</h2>
     <h2 class="service_intro_heading" style="text-shadow: 2px 3px 4px black;">+1 (403) 701-2169</h2>
 </section>

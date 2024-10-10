@@ -67,7 +67,7 @@ $canonical = '<link rel="canonical" href="' . htmlspecialchars($currentUrl, ENT_
 
     <!-- CSS For this Page -->
     <link rel="icon" href="favicon_round.png">
-    <link rel="stylesheet" href="library/main0.1.3.css">
+    <link rel="stylesheet" href="library/main0.1.3.css?v102">
 
     <!-- jQuery 3.5.1 -->
     <script src="library/jquery.min.js"></script>
@@ -160,6 +160,7 @@ $canonical = '<link rel="canonical" href="' . htmlspecialchars($currentUrl, ENT_
 
             <div class="header_mobile_menus">
                 <a class="menu_item_desktop" href="index">Home</a>
+                <a class="menu_item_desktop" href="booking">Book Appointment</a>
                 <a class="menu_item_desktop" href="about">About</a>
                 <a class="menu_item_desktop" href="services">Services</a>
                 <a class="menu_item_desktop" href="blog">Blog</a>

@@ -41,7 +41,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <p>Thank you for booking with us.</p>'; 
         
         $mail_paintext_body = "Thank you for booking with us. We have received your booking details and will get back to you shortly.";
-        // require_once 'mail.php';
+        require_once 'mail.php';
     }
 
 
