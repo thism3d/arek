@@ -10,19 +10,21 @@ try {
     // Server settings
     $mail->SMTPDebug = 0;                                   // Enable verbose debug output (for development)
     $mail->isSMTP();                                        // Set mailer to use SMTP
-    $mail->Host       = 'intellai.org';                     // Specify main SMTP server
+    $mail->Host       = 'mail.privateemail.com';                     // Specify main SMTP server
     $mail->SMTPAuth   = true;                               // Enable SMTP authentication
-    $mail->Username   = 'muzahid@intellai.org';             // SMTP username
-    $mail->Password   = '@Muzahid221';                      // SMTP password
+    $mail->Username   = 'info@arekpm.com';             // SMTP username
+    $mail->Password   = '@Gurpreet24';                      // SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;        // Enable SSL encryption (port 465)
     $mail->Port       = 465;                                // TCP port for SSL
 
     // Recipients
-    $mail->setFrom('muzahid@intellai.org', 'Arek Preoperty Manangement');       // Sender's email and name
+    $mail->setFrom('info@arekpm.com', 'Arek Preoperty Manangement');       // Sender's email and name
     
     
     $mail->addAddress($mail_address); // Add a recipient
     $mail->addAddress('gurpreetv@virdirealestate.com', 'Gurpreet Virdi Real Estate'); // Add Another recipient
+    $mail->addReplyTo('gvirdi@arekpm.com', 'Arek Property Support'); // Add a different reply-to email address
+
     
 
     // Content
