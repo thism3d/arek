@@ -101,7 +101,8 @@ require_once "server_files/header.php";
                 <p class="experience_item_brief">We’re transforming property management by eliminating upfront fees
                     and expenses. Instead, we offer a straightforward monthly management fee, calculated as a
                     percentage of the rent. You’ll only be charged once a tenant is secured and begins paying rent.
-                    </a>
+                </p>
+                <a href="booking" class="experience_item_link">Book Consultation Now</a>
             </div>
             <div class="experience_item_right">
                 <img class="experience_item_img"
