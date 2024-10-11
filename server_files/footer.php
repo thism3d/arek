@@ -85,7 +85,8 @@
             </div>
 
             <div class="follow_us_btn_keeper">
-                <a class="common_btn_home" href="https://www.facebook.com/arekpm.ca">FOLLOW US</a>
+                <!-- <a class="common_btn_home" href="https://www.facebook.com/arekpm.ca">FOLLOW US</a> -->
+                <a aria-label="Chat on WhatsApp" href="https://wa.me/14037012169?text=I%20would%20like%20to%20consult%20more%20about%20your%20property%20management%20services."> <img alt="Chat on WhatsApp" style="max-width: 200px;" src="assets/social/WhatsAppButtonGreenLarge.png" /></a>
             </div>
         </div>
     </section>
@@ -122,6 +123,8 @@
                     </a>
                 </div>
                 <div class="footer_b_item">
+                    <a href="https://wa.me/14037012169?text=I%20would%20like%20to%20consult%20more%20about%20your%20property%20management%20services." class="footer_social_anchor"><i
+                            class="fa fa-whatsapp"></i></a>
                     <a href="https://www.facebook.com/arekpm.ca" class="footer_social_anchor"><i
                             class="fa fa-facebook-f"></i></a>
                     <a href="https://www.instagram.com/arekpm.ca" class="footer_social_anchor"><i class="fa fa-instagram"></i></a>
