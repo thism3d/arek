@@ -11,3 +11,5 @@ Disallow: /cookies.php
 Disallow: /error.html
 Disallow: /github_instructions.txt
 Disallow: /mail.php
+Disallow: /NamecheapDMIK.txt
+Disallow: /ssl/

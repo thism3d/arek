@@ -100,6 +100,16 @@ $canonical = '<link rel="canonical" href="' . htmlspecialchars($currentUrl, ENT_
     /></noscript>
     <!-- End Meta Pixel Code -->
 
+
+
+
+    <!-- Calendly badge widget begin -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+    <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/arekpm-info?hide_gdpr_banner=1&primary_color=000000', text: 'Book Consultation', color: '#fff176', textColor: '#333333', branding: true }); }</script>
+    <!-- Calendly badge widget end -->
+
+
     <section class="upper_header">
         
         <div class="upper_menu_logo_keeper">

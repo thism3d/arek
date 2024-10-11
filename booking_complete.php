@@ -63,7 +63,7 @@ if($row_affected){
         </div>
         <p class="booking_complete_text"><strong>Call us at <a href="tel:+14037012169">+1 (403) 701-2169</a> for more details.</strong></p>
         <div style="text-align: center;">
-            <a class="common_btn_home" href="https://arekpm.com/assets/pdf/Proposal.pdf">Download Our Brochure</a>
+            <a class="common_btn_home" href="https://arekpm.com/assets/pdf/Proposal.pdf" download="Property Management Proposal - Landlord.pdf">Download Our Brochure</a>
         </div>
         <br>
         <h1 class="download_heading">Booking Completed.</h1>

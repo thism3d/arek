@@ -55,29 +55,37 @@ if($row_affected){
             <img src="assets/downloaded.png">
         </div>
 
-        <h1 class="download_heading">Your PDF will be downloaded automatically</h1>
+
+        <p class="booking_complete_text"><strong>Your PDF will be downloaded automatically. Not started! Click Download Now Button.</strong></p>
+        <div style="text-align: center;">
+            <a class="common_btn_home" href="https://arekpm.com/assets/pdf/Proposal.pdf" download="Property Management Proposal - Landlord.pdf">Download Now</a>
+        </div>
+        <br><br>
+        <h1 class="download_heading">Thank You for Downloading</h1>
 
         <script>
             window.onload = function() {
-                // URL of the PDF file
-                var pdfUrl = "assets/pdf/Proposal.pdf";
+                setTimeout(function() {
+                    // URL of the PDF file
+                    var pdfUrl = "assets/pdf/Proposal.pdf";
 
-                // Create an anchor element
-                var link = document.createElement("a");
-                link.href = pdfUrl;
+                    // Create an anchor element
+                    var link = document.createElement("a");
+                    link.href = pdfUrl;
 
-                // Set the download attribute for the PDF
-                link.download = "Property Management Proposal - Landlord.pdf";
+                    // Set the download attribute for the PDF
+                    link.download = "Property Management Proposal - Landlord.pdf";
 
-                // Append the link to the body (this step is optional)
-                document.body.appendChild(link);
+                    // Append the link to the body (this step is optional)
+                    document.body.appendChild(link);
 
-                // Trigger a click on the link to start the download
-                link.click();
+                    // Trigger a click on the link to start the download
+                    link.click();
 
-                // Remove the link after downloading
-                document.body.removeChild(link);
-            }
+                    // Remove the link after downloading
+                    document.body.removeChild(link);
+                }, 1000); // Delay of 1 second
+            };
         </script>
     ';
 
