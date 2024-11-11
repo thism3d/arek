@@ -3,43 +3,43 @@
    <url>
       <loc>https://arekpm.com/index</loc>
       <lastmod>2024-10-02T14:00:00+00:00</lastmod>
-      <changefreq>weekly</changefreq>
+      <changefreq>daily</changefreq>
       <priority>1.00</priority>
    </url>
    <url>
       <loc>https://arekpm.com/about</loc>
       <lastmod>2024-10-02T14:00:00+00:00</lastmod>
-      <changefreq>weekly</changefreq>
+      <changefreq>daily</changefreq>
       <priority>0.90</priority>
    </url>
    <url>
       <loc>https://arekpm.com/services</loc>
       <lastmod>2024-10-02T14:00:00+00:00</lastmod>
-      <changefreq>weekly</changefreq>
+      <changefreq>daily</changefreq>
       <priority>0.80</priority>
    </url>
    <url>
       <loc>https://arekpm.com/blog</loc>
       <lastmod>2024-10-02T14:00:00+00:00</lastmod>
-      <changefreq>weekly</changefreq>
+      <changefreq>daily</changefreq>
       <priority>0.80</priority>
    </url>
    <url>
       <loc>https://arekpm.com/contact</loc>
       <lastmod>2024-10-02T14:00:00+00:00</lastmod>
-      <changefreq>weekly</changefreq>
+      <changefreq>daily</changefreq>
       <priority>0.90</priority>
    </url>
    <url>
       <loc>https://arekpm.com/download_pdf</loc>
       <lastmod>2024-10-02T14:00:00+00:00</lastmod>
-      <changefreq>weekly</changefreq>
+      <changefreq>daily</changefreq>
       <priority>1.00</priority>
    </url>
    <url>
       <loc>https://arekpm.com/booking</loc>
       <lastmod>2024-10-02T14:00:00+00:00</lastmod>
-      <changefreq>weekly</changefreq>
+      <changefreq>daily</changefreq>
       <priority>1.00</priority>
    </url>
 </urlset>

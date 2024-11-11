@@ -1,41 +1,42 @@
 <?php
+
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
+use PHPMailer\PHPMailer\SMTP;
 
-require 'vendor/autoload.php'; // Include PHPMailer via Composer or download manually
+require 'vendor/autoload.php';
 
-$mail = new PHPMailer(true); // Create a new PHPMailer instance
+// Create a new PHPMailer instance
+$mail = new PHPMailer();
 
-try {
-    // Server settings
-    $mail->SMTPDebug = 0;                                   // Enable verbose debug output (for development)
-    $mail->isSMTP();                                        // Set mailer to use SMTP
-    $mail->Host       = 'mail.privateemail.com';                     // Specify main SMTP server
-    $mail->SMTPAuth   = true;                               // Enable SMTP authentication
-    $mail->Username   = 'info@arekpm.com';             // SMTP username
-    $mail->Password   = '@Gurpreet24';                      // SMTP password
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;        // Enable SSL encryption (port 465)
-    $mail->Port       = 465;                                // TCP port for SSL
+// Configure SMTP
+$mail->isSMTP();
+// $mail->SMTPDebug = SMTP::DEBUG_SERVER;
+$mail->SMTPDebug = 0;   
+$mail->Host = 'smtp.gmail.com';
+$mail->Port = 465;
+$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+$mail->SMTPAuth = true;
 
-    // Recipients
-    $mail->setFrom('info@arekpm.com', 'Arek Preoperty Manangement');       // Sender's email and name
-    
-    
-    $mail->addAddress($mail_address); // Add a recipient
-    $mail->addAddress('gurpreetv@virdirealestate.com', 'Gurpreet Virdi Real Estate'); // Add Another recipient
-    $mail->addReplyTo('gvirdi@arekpm.com', 'Arek Property Support'); // Add a different reply-to email address
+// Gmail SMTP credentials
+$mail->Username = 'gvirdi@arekpm.com';
+$mail->Password = 'ixamttvsimxwewrs';
 
-    
+// // Set email details
+$mail->setFrom('gvirdi@arekpm.com', 'Arek Property Management');
+$mail->addAddress($mail_address); // Add a recipient
+$mail->addAddress('gurpreetv@virdirealestate.com', 'Gurpreet Virdi Real Estate'); // Add Another recipient
 
-    // Content
-    $mail->isHTML(true);                                    // Set email format to HTML
-    $mail->Subject = $mail_subject;
-    $mail->Body    = $mail_html_body;
-    $mail->AltBody = $mail_paintext_body;
+// Content
+$mail->isHTML(true);                                    // Set email format to HTML
+$mail->Subject = $mail_subject;
+$mail->Body    = $mail_html_body;
+$mail->AltBody = $mail_paintext_body;
 
-
-    $mail->send();
-    // echo 'Message has been sent';
-} catch (Exception $e) {
-    // echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+// Send email and check for errors
+if (!$mail->send()) {
+    // echo 'Mailer Error: ' . $mail->ErrorInfo;
+} else {
+    // echo 'Message sent!';
 }
+
+?>

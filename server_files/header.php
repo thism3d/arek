@@ -77,9 +77,22 @@ $canonical = '<link rel="canonical" href="' . htmlspecialchars($currentUrl, ENT_
 </head>
 
 <body>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RRYJH75HTM">
+    </script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-RRYJH75HTM');
+    </script>
+
+
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TKFLP2C6"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TKFLP2C6"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
     <!-- End Google Tag Manager (noscript) -->
 
     <!-- Meta Pixel Code -->
