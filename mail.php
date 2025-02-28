@@ -1,42 +1,42 @@
 <?php
-
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
 
-require 'vendor/autoload.php';
+require 'vendor/autoload.php'; // Include PHPMailer via Composer or download manually
 
-// Create a new PHPMailer instance
-$mail = new PHPMailer();
+$mail = new PHPMailer(true); // Create a new PHPMailer instance
 
-// Configure SMTP
-$mail->isSMTP();
-// $mail->SMTPDebug = SMTP::DEBUG_SERVER;
-$mail->SMTPDebug = 0;   
-$mail->Host = 'smtp.gmail.com';
-$mail->Port = 465;
-$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-$mail->SMTPAuth = true;
+try {
+    // Server settings
+    $mail->SMTPDebug = 0;                                   // Enable verbose debug output (for development)
+    $mail->isSMTP();                                        // Set mailer to use SMTP
+    $mail->Host       = 'mail.arekpm.com';                     // Specify main SMTP server
+    $mail->SMTPAuth   = true;                               // Enable SMTP authentication
+    $mail->Username   = 'info@arekpm.com';             // SMTP username
+    $mail->Password   = '@GVirdi2025';                      // SMTP password
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;        // Enable SSL encryption (port 465)
+    $mail->Port       = 465;                                // TCP port for SSL
 
-// Gmail SMTP credentials
-$mail->Username = 'gvirdi@arekpm.com';
-$mail->Password = 'ixamttvsimxwewrs';
+    // Recipients
+    $mail->setFrom('info@arekpm.com', 'Arek Property Management');       // Sender's email and name
+    
+    
+    // $mail->addAddress($mail_address); // Add a recipient
+    $mail->addAddress('gvirdi@arekpm.com', 'Arek Property Support'); // Add Another recipient
+    $mail->addReplyTo('gvirdi@arekpm.com', 'Arek Property Support'); // Add a different reply-to email address
 
-// // Set email details
-$mail->setFrom('gvirdi@arekpm.com', 'Arek Property Management');
-$mail->addAddress($mail_address); // Add a recipient
-$mail->addAddress('gurpreetv@virdirealestate.com', 'Gurpreet Virdi Real Estate'); // Add Another recipient
+    
 
-// Content
-$mail->isHTML(true);                                    // Set email format to HTML
-$mail->Subject = $mail_subject;
-$mail->Body    = $mail_html_body;
-$mail->AltBody = $mail_paintext_body;
+    // Content
+    $mail->isHTML(true);                                    // Set email format to HTML
+    $mail->Subject = $mail_subject;
+    $mail->Body    = $mail_html_body;
+    $mail->AltBody = $mail_paintext_body;
 
-// Send email and check for errors
-if (!$mail->send()) {
-    // echo 'Mailer Error: ' . $mail->ErrorInfo;
-} else {
-    // echo 'Message sent!';
+
+    $mail->send();
+    // echo 'Message has been sent';
+} catch (Exception $e) {
+    // echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
 
-?>
